@@ -27,8 +27,8 @@ You can find more on [project dependencies](pom.xml)
 In order to get the application running you need to run [ApiDataApplication](spring-basic-api/src/main/java/io/javabrains/ApiDataApplication.java) file.
 
 The main body consists of
-- [io.javabrains.springbootstarter.course](spring-basic-api/src/main/java/io/javabrains/springbootstarter/course) and
-- [io.javabrains.springbootstarter.topic](spring-basic-api/src/main/java/io/javabrains/springbootstarter/topic) packages.
+- [io.javabrains.springbootstarter.course](src/main/java/io/javabrains/springbootstarter/course) and
+- [io.javabrains.springbootstarter.topic](src/main/java/io/javabrains/springbootstarter/topic) packages.
 
 Both packages include a java class ([Course class](spring-basic-api/src/main/java/io/javabrains/springbootstarter/course/Course.java), [Topic class](spring-basic-api/src/main/java/io/javabrains/springbootstarter/topic/Topic.java)) responsible for entity's structure, a controller class ([Course controller](spring-basic-api/src/main/java/io/javabrains/springbootstarter/course/CourseController.java), [Topic controller](spring-basic-api/src/main/java/io/javabrains/springbootstarter/topic/TopicController.java)) which administrates requests and responses, a service class ([Course service](spring-basic-api/src/main/java/io/javabrains/springbootstarter/course/CourseService.java), [Topic service](spring-basic-api/src/main/java/io/javabrains/springbootstarter/topic/TopicService.java)) communicating with our database ([JPA](https://www.oracle.com/technetwork/java/javaee/tech/persistence-jsp-140049.html) in our case) and last but not least a repository class (([Course repository](spring-basic-api/src/main/java/io/javabrains/springbootstarter/course/CourseRepository.java), [Topic repository](spring-basic-api/src/main/java/io/javabrains/springbootstarter/topic/TopicRepository.java))) which we can add or modify the default functionality comes from JPA with.
 
