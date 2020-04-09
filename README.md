@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.ya-webdesign.com/images/spring-logo-png-6.png" width="250" height="150"></p>
+<p align="center"><img src="https://i.ya-webdesign.com/images/spring-logo-png-6.png" width="280" height="145"></p>
 
 ## About Spring Boot
 
